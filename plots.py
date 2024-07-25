@@ -2809,7 +2809,7 @@ class MainWindow(QMainWindow):
             self.button_new_tree.setText("Restore")
 
     def get_current_id_plot(self):
-    #get the current id_plot, first from a tree if selected and from the treeView_collections (selected item or first item) if no tree selected 
+    #get the current id_plot, hello world first from a tree if selected and from the treeView_collections (selected item or first item) if no tree selected 
         try:
             index = self.ui.tableView_trees.currentIndex()
             id_plot = index.siblingAtColumn(1).data(Qt.UserRole)
